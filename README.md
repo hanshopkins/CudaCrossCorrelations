@@ -19,3 +19,9 @@
 &nbsp;
 
 * I'm also going to include the trig_example version, which doesn't use any imported data from albatrostools.
+
+&nbsp;
+
+The way the cross correlations are implemented currently, for the regions where the signals don't overlap after being shifted, all of the multiplications are just sent to 0. This causes the magnitude of the result to decrease linearlyish away from time = 0. This can be easily seen in the trig example. An alternative for this definition of cross correlation is to multiply circularly, so that it wraps around.
+
+It would be nice to be able to set the second input to be larger than the first, so that you could compare a small part of one signal to a larger part of another signal, and then you wouldn't have to deal with the amplitude falloff. If that's helpful I could add that.
