@@ -18,4 +18,4 @@
 
 &nbsp;
 
-* I'm also going to include the trig_example version, which doesn't use any imported date from albatrostools.
+* I'm also going to include the trig_example version, which doesn't use any imported data from albatrostools.
