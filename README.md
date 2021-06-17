@@ -4,6 +4,8 @@
 
 * Run setup.py to compile all the shared object files
 
+* Install NVCC
+
 * Run cross_correlations.py with `python3 cross_correlations <.raw file>`
 
 &nbsp;
