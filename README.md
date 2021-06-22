@@ -2,7 +2,7 @@
 
 * Put all files in the same directory.
 
-* Run setup.py to compile all the shared object files
+* Run build in setup.py to compile all the shared object files with the command: python3 -c 'from setup import build; build()'
 
 * Install NVCC
 
